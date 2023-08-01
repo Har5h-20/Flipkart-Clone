@@ -1,0 +1,495 @@
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 56px;
+    width: 100%;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    display: flex;
+}
+.nav-logo{
+    height: 20px;
+    
+   margin: 0% 0.5% 0% 15.5%;
+   padding: 0%;
+ 
+    
+}
+.logo{
+    background-image: url("logo.png");
+    height: 20.11px;
+    width: 75px;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+
+}
+.logo-text{
+    font-size: 11px;
+    font-style: italic;
+     color: yellow;
+     margin: 0%;
+     padding: 0%;
+
+}
+input{
+    display: flex;
+}
+.search-box input{
+    height: 36px;
+    width: 500px;
+    margin: 0%;
+    padding: 0%;
+}
+.login button{
+    height: 32px;
+    width: 122px;
+   margin: 50px;
+   color: #2874f0;
+   font-weight: 500;
+   border-radius: 2px;
+   border: 1px solid #dbdbdb;
+   font-size: 16px;
+}
+.sell p{
+    font-size: 16px;
+    color: white;
+    margin-right: 30px;
+    background-color: #2874f0;
+}
+.sel{
+    display: flex;
+    background-color: #2874f0;
+}
+.sele{
+    color: white;
+    background-color: #2874f0;
+    margin: 13%;
+}
+.search-icon{
+    display: flex;
+    color: #2874f0;
+    background-color: white;
+    border: none;
+  
+    height:38px ;
+    width: 30px;
+    align-items: center;
+    padding-left: 6px;
+    margin-top: 1px;
+    
+}
+   
+.search-box{
+    display: flex;
+    border: none;
+    border-color: white;
+ 
+}
+select{
+    background-color: #2874f0;
+   border: none;
+   color: white;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+  
+}
+.cart p{
+   
+    color: white;
+    padding-left: 4px;
+}
+.cart-icon {
+    height: 16px;
+    width: 16px;
+    background-color: #2874f0;
+    color: white;
+}
+.cart{
+    display: flex;
+    padding-left: 40px;
+}
+.cate{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    padding-left: 10%;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+  
+}
+.groc{
+    height: 30px;
+    width: 30px;
+    margin-right: 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.groc img{
+    height: 64px;
+    width: 64px;
+    padding-top: 15px;
+}
+.groc:hover{
+    color: #2874f0;
+}
+.mob{
+    height: 30px;
+    width: 30px;
+    margin-right: 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.mob img{
+    height: 64px;
+    width: 64px;
+    padding-top: 15px;
+}
+.mob:hover{
+    color: #2874f0;
+}
+.fashion{
+    height: 30px;
+    width: 30px;
+    margin-right: 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.fashion img{
+    height: 64px;
+    width: 64px;
+    padding-top: 15px;
+}
+.fashion:hover{
+    color: #2874f0;
+}
+.elect{
+    height: 30px;
+    width: 30px;
+    margin-right: 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.elect img{
+    height: 64px;
+    width: 64px;
+    padding-top: 15px;
+}
+.elect:hover{
+    color: #2874f0;
+}
+.home{
+    height: 30px;
+    width: 30px;
+    margin-right: 120px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.home img{
+    height: 64px;
+    width: 64px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.home p{
+    width: 120px;
+    padding-left: 0;
+}
+.home:hover{
+    color: #2874f0;
+}
+.appliances{
+    height: 30px;
+    width: 30px;
+    margin-right: 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.appliances img{
+    height: 64px;
+    width: 64px;
+    padding-top: 15px;
+}
+.appliances:hover{
+    color: #2874f0;
+}
+.travel{
+    height: 30px;
+    width: 30px;
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.travel img{
+    height: 64px;
+    width: 64px;
+    padding-top: 15px;
+}
+.travel p{
+    width: 40px;
+    padding-left: 8px;
+}
+.travel:hover{
+color: #2874f0;
+}
+.topoffers{
+    height: 30px;
+    width: 30px;
+    margin-right: 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.topoffers img{
+    height: 64px;
+    width: 64px;
+    padding-top: 15px;
+    padding-left: 19px;
+}
+.topoffers p{
+    width: 120px;
+    padding-left: 0px;
+}
+.topoffers:hover{
+    color: #2874f0;
+}
+.betoy{
+    height: 30px;
+    width: 30px;
+    margin-right: 120px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.betoy img{
+    height: 64px;
+    width: 64px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.betoy p{
+    width: 170px;
+    padding-left: 0px;
+}
+.betoy:hover{
+    color: #2874f0;
+}
+.bike{
+    height: 30px;
+    width: 30px;
+    margin-right: 80px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.bike img{
+    height: 64px;
+    width: 64px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.bike p{
+    width: 170px;
+    
+}
+.bike:hover{
+    color: #2874f0;
+}
+.banner{
+  
+    height: 280px;
+    width: 100%;
+   margin-top: 18px;
+   background-image: url(banner.png);
+   background-size: contain;
+   margin-bottom: 15px;
+}
+
+
+
+
+.toff{
+    height: 342px;
+    width: 100%;
+    display: flex;
+    margin-top: 19px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.offer-text{
+    font-size: 1.8em;
+    height: 342px;
+    width: 230px;
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+.offer-text button{
+    position: relative;
+    top: 20px;
+    background-color: #2874f0;
+    color: white;
+    border: none;
+    height: 39px;
+    width: 96px;
+}
+
+
+.iphone{
+    height: 342px;
+    width: 230px;
+    padding-top: 25px;
+}
+.iphone-img{
+    background-image: url(https://rukminim1.flixcart.com/image/200/200/xif0q/mobile/3/5/l/-original-imaghx9qmgqsk9s4.jpeg?q=70);
+    height: 200px;
+    width: 151px;
+    background-size: cover;
+}
+.iphone-text{
+    margin-top: 15px;
+    color: #212121;
+    font-size: 0.9rem;
+}
+.incl{
+   margin-top: 13px;
+   color: #388e3c;
+}
+.from{
+    opacity: 50%;
+    color: 212121;
+    font-size: 0.9rem;
+    margin-top: 13px;
+}
+.iphone-img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.pixel{
+    height: 342px;
+    width: 230px;
+    padding-top: 10px;
+}
+.pixel-img{
+    background-image: url(pixel.jpeg);
+    height: 200px;
+    width: 151px;
+    background-size: cover;
+}
+.pixel-text{
+    padding-top: 15px;
+    color: #212121;
+    font-size: 0.9rem;
+}
+.pixel-price{
+   padding-top: 13px;
+   color: #388e3c;
+}
+.OLED{
+    opacity: 50%;
+    color: 212121;
+    font-size: 0.9rem;
+    padding-top: 13px;
+}
+.pixel-img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.ipad{
+    height: 342px;
+    width: 230px;
+    padding-top: 25px;
+}
+.ipad-img{
+    background-image: url(https://rukminim1.flixcart.com/image/200/200/ktop5e80/tablet/x/9/o/mk2k3hn-a-apple-original-imag6yy7xjjugz4w.jpeg?q=70);
+    height: 200px;
+    width: 151px;
+    background-size: cover;
+}
+.ipad-text{
+    margin-top: 15px;
+    color: #212121;
+    font-size: 0.9rem;
+}
+.shop-now{
+   margin-top: 13px;
+   color: #388e3c;
+}
+.display{
+    opacity: 50%;
+    color: 212121;
+    font-size: 0.9rem;
+    margin-top: 13px;
+}
+.ipad-img:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+
+.monitor{
+    height: 342px;
+    width: 300px;
+    padding-top: 25px;
+}
+.monitor-img{
+    background-image: url(https://rukminim1.flixcart.com/image/200/200/l3ahpjk0/monitor/a/v/q/-original-imagefsf8hkyuhdj.jpeg?q=70);
+    height: 200px;
+    width: 270px;
+    background-size: cover;
+}
+.monitor-text{
+    margin-top: 15px;
+    color: #212121;
+    font-size: 0.9rem;
+}
+.mon-price{
+   margin-top: 13px;
+   color: #388e3c;
+}
+.monitor-company{
+    opacity: 50%;
+    color: 212121;
+    font-size: 0.9rem;
+    margin-top: 13px;
+}
+.monitor-img:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+.moto{
+    height: 342px;
+    width: 230px;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.moto-img{
+    background-image: url(https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/r/k/h/g73-5g-paux0023in-motorola-original-imagngjh7epkhqdg.jpeg?q=70);
+    height: 200px;
+    width: 161px;
+    background-size: cover;
+}
+.moto-text{
+    margin-top: 15px;
+    color: #212121;
+    font-size: 0.9rem;
+}
+.moto-img:hover{
+    transform: scale(1.1);
+}
+
+
